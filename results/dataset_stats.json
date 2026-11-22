@@ -1,0 +1,28 @@
+{
+  "total": 94328,
+  "splits": {
+    "train": 75462,
+    "val": 9433,
+    "test": 9433
+  },
+  "toxic_share": 0.3169,
+  "groups": {
+    "Jigsaw / English": {
+      "clean": 48642,
+      "toxic": 16196
+    },
+    "Prism / English": {
+      "clean": 7488,
+      "toxic": 7493
+    },
+    "Prism / Hindi": {
+      "clean": 5393,
+      "toxic": 4345
+    },
+    "Prism / Hinglish": {
+      "clean": 2911,
+      "toxic": 1860
+    }
+  },
+  "median_words": 26
+}

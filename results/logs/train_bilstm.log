@@ -1,0 +1,5 @@
+epoch 1 val F1 0.7763
+epoch 2 val F1 0.7869
+epoch 3 val F1 0.7786
+epoch 4 val F1 0.7733
+[bilstm_attention] acc=0.848 P=0.7171 R=0.8592 F1=0.7817 AUC=0.9368 thr=0.5276 per_lang={'english': 0.8319, 'hindi': 0.6418, 'hinglish': 0.5799}

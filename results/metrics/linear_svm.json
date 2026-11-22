@@ -1,0 +1,27 @@
+{
+  "model": "linear_svm",
+  "accuracy": 0.8564,
+  "precision": 0.7409,
+  "recall": 0.8407,
+  "f1": 0.7877,
+  "roc_auc": 0.9361,
+  "threshold": 0.3517,
+  "per_lang_f1": {
+    "english": 0.8402,
+    "hindi": 0.6426,
+    "hinglish": 0.5489
+  },
+  "latency_ms": 8.058,
+  "confusion": [
+    [
+      5565,
+      879
+    ],
+    [
+      476,
+      2513
+    ]
+  ],
+  "n_test": 9433,
+  "train_seconds": 181.1
+}

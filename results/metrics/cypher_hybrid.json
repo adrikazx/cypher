@@ -1,0 +1,30 @@
+{
+  "model": "cypher_hybrid",
+  "accuracy": 0.874,
+  "precision": 0.7722,
+  "recall": 0.8541,
+  "f1": 0.8111,
+  "roc_auc": 0.9528,
+  "threshold": 0.5747,
+  "per_lang_f1": {
+    "english": 0.8622,
+    "hindi": 0.623,
+    "hinglish": 0.6205
+  },
+  "latency_ms": 10.944,
+  "confusion": [
+    [
+      5691,
+      753
+    ],
+    [
+      436,
+      2553
+    ]
+  ],
+  "n_test": 9433,
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "epochs": 2,
+  "train_minutes": 10.5,
+  "params_millions": 135.6
+}

@@ -1,0 +1,27 @@
+{
+  "model": "bilstm_attention",
+  "accuracy": 0.848,
+  "precision": 0.7171,
+  "recall": 0.8592,
+  "f1": 0.7817,
+  "roc_auc": 0.9368,
+  "threshold": 0.5276,
+  "per_lang_f1": {
+    "english": 0.8319,
+    "hindi": 0.6418,
+    "hinglish": 0.5799
+  },
+  "latency_ms": 0.903,
+  "confusion": [
+    [
+      5431,
+      1013
+    ],
+    [
+      421,
+      2568
+    ]
+  ],
+  "n_test": 9433,
+  "train_seconds": 60.2
+}

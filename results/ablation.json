@@ -1,0 +1,70 @@
+{
+  "config": {
+    "interactions": 10000,
+    "banter_share": 0.3,
+    "harmful_share": 0.1,
+    "warmup_per_pair": 12,
+    "p_approve_banter": 0.95,
+    "p_flag_attack": 0.9,
+    "firewall": "hybrid-transformer-cnn",
+    "seed": 7
+  },
+  "counts": {
+    "benign": 8959,
+    "harmful": 1041,
+    "banter": 3021
+  },
+  "policies": {
+    "keyword": {
+      "false_positive_actions": 2293,
+      "fp_banter": 2057,
+      "fp_neutral": 236,
+      "fp_rate": 0.2559,
+      "harmful_caught": 237,
+      "harmful_missed": 804,
+      "recall": 0.2277,
+      "prompts": 0,
+      "caught_after_delivery": 0
+    },
+    "standard_ai": {
+      "false_positive_actions": 2954,
+      "fp_banter": 2061,
+      "fp_neutral": 893,
+      "fp_rate": 0.3297,
+      "harmful_caught": 587,
+      "harmful_missed": 454,
+      "recall": 0.5639,
+      "prompts": 0,
+      "caught_after_delivery": 0
+    },
+    "cypher": {
+      "false_positive_actions": 1621,
+      "fp_banter": 1303,
+      "fp_neutral": 318,
+      "fp_rate": 0.1809,
+      "harmful_caught": 709,
+      "harmful_missed": 332,
+      "recall": 0.6811,
+      "prompts": 1524,
+      "caught_after_delivery": 193
+    }
+  },
+  "cypher_routing": {
+    "banter:L2:allow": 425,
+    "banter:L2:block": 1242,
+    "banter:L3:allow": 925,
+    "banter:L3:block": 43,
+    "banter:L4:verify": 386,
+    "harmful:L2:allow": 305,
+    "harmful:L2:block": 254,
+    "harmful:L3:block": 262,
+    "harmful:L4:verify": 220,
+    "neutral:L2:allow": 4551,
+    "neutral:L2:block": 74,
+    "neutral:L3:allow": 194,
+    "neutral:L3:block": 201,
+    "neutral:L4:verify": 918
+  },
+  "fp_reduction_vs_ai": 0.4513,
+  "fp_reduction_vs_keyword": 0.2931
+}

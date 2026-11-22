@@ -1,0 +1,27 @@
+{
+  "model": "logistic_regression",
+  "accuracy": 0.8496,
+  "precision": 0.7175,
+  "recall": 0.8665,
+  "f1": 0.785,
+  "roc_auc": 0.9365,
+  "threshold": 0.4026,
+  "per_lang_f1": {
+    "english": 0.8338,
+    "hindi": 0.6554,
+    "hinglish": 0.5632
+  },
+  "latency_ms": 6.831,
+  "confusion": [
+    [
+      5424,
+      1020
+    ],
+    [
+      399,
+      2590
+    ]
+  ],
+  "n_test": 9433,
+  "train_seconds": 142.9
+}
